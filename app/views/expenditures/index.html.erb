@@ -1,9 +1,9 @@
 <div class="nav-header ">
- <div>
+  <div>
       <%= link_to  user_groups_path do %>
         <%= image_tag "back.svg", style: 'height:10px; width:auto;' %>
       <% end  %>
-    </div>
+  </div>
   <h4 class="text-gray-4 ">Expenditures</h4> 
   <div> </div>
 </div>
@@ -12,11 +12,11 @@
   <div class="icon-container"> 
     <%= image_tag "#{@group_id.icon}.png", style: 'height:40px; width:auto;' %> 
   </div>
-<% if @expenditures.count > 0 %>
-  <div class=" flex-column">
-    <p> <strong>Category:</strong> <%= @group_id.name %> </p>
-    <p> <strong>Total spent:</strong> $<%= @expenditures.first.total_expenditures(@group_id) %></p>
-  </div>
+  <% if @expenditures.count > 0 %>
+    <div class=" flex-column">
+      <p> <strong>Category:</strong> <%= @group_id.name %> </p>
+      <p> <strong>Total spent:</strong> $<%= @expenditures.first.total_expenditures(@group_id) %></p>
+    </div>
   <%end %>
 </div>
 
