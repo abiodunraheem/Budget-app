@@ -11,7 +11,7 @@ Enjoy!
  - CSS3
 
 # Live Demo
-View live demo [here:](https://m.herokuapp.com/)
+View live demo [here:](https://herokuapp.com/)
 
 # Video Presentation
 View demo video [here:](https://drive.google.com/file/d/1cjMUQLhJVqjVY7mtJBejNro5kONyexnC/view?usp=sharing)
