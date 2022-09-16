@@ -64,7 +64,7 @@ Setup db
 1. `rubocop`
 
 ### To autocorrect offenses with rubocop we use:
-1. `rubocop --auto-correct-all` or
+1. `rubocop --autocorrect-all` or
 2. `rubocop -A`
 
 Have fun with TDD!
