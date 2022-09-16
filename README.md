@@ -5,26 +5,16 @@ Budget app is a Ruby on Rails application that aims to make the process of track
 
 Enjoy!
 
-
-## Screenshots
-
-![screenshot](./images/home.png)
-![screenshot](./images/signin.png)
-![screenshot](./images/signup.png)
-![screenshot](./images/emptygroup.png)
-![screenshot](./images/detailedgroup.png)
-![screenshot](./images/emptyentity.png)
-
 # Built With
  - Ruby on Rails
  - Bootstrap 5
  - CSS3
 
 # Live Demo
-View live demo [here:](https://my-pesa.herokuapp.com/)
+View live demo [here:](https://abiodun-budget-app.herokuapp.com/)
 
 # Video Presentation
-View demo video [here:]
+View demo video [here:](https://drive.google.com/file/d/1cjMUQLhJVqjVY7mtJBejNro5kONyexnC/view?usp=sharing)
 
 # Additional Tools
   1. Rubocop
@@ -64,7 +54,7 @@ Setup db
 1. `rubocop`
 
 ### To autocorrect offenses with rubocop we use:
-1. `rubocop --auto-correct-all` or
+1. `rubocop --autocorrect-all` or
 2. `rubocop -A`
 
 Have fun with TDD!
