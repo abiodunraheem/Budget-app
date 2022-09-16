@@ -72,7 +72,7 @@ Have fun with TDD!
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/abiodunraheem/Budget-app/issues)
+Feel free to check the [issues page](https://github.com/abiodunraheem/Budget-app/issues).
 
 ## Show your support
 
