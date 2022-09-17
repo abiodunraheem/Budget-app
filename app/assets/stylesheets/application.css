@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
@@ -40,6 +41,11 @@
 
 .text-gray-4 {
   color: #f0f3f2 !important;
+}
+
+.logo {
+  font-family: 'Ms Madi', cursive;
+  color: white;
 }
 
 /* paddings margins */
