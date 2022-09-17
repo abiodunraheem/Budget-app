@@ -8,17 +8,11 @@ class ExpendituresController < ApplicationController
     @expenditures = Expenditure.where(group_id: @group_id.id)
   end
 
-  # GET /expenditures/1 or /expenditures/1.json
-  def show; end
-
   # GET /expenditures/new
   def new
     @group_id = Group.find(params[:group_id]).id
     @expenditure = Expenditure.new
   end
-
-  # GET /expenditures/1/edit
-  def edit; end
 
   # POST /expenditures or /expenditures.json
   def create
